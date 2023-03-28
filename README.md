@@ -1,2 +1,2 @@
 # Repo1
-A practice repository
+Hi, this is my portfolio website!
