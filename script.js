@@ -12,19 +12,19 @@ smMenuBtn.addEventListener("click", () => {
   smMenu.style.transitionDelay = "0s";
   smMenu.classList.add("main-header__sm-menu--active");
 
-  smMenuLink1.style.transitionDelay = ".5s";
+  smMenuLink1.style.transitionDelay = ".3s";
   smMenuLink1.style.transform = "translateY(0)";
   smMenuLink1.style.opacity = "1";
 
-  smMenuLink2.style.transitionDelay = ".8s";
+  smMenuLink2.style.transitionDelay = ".5s";
   smMenuLink2.style.transform = "translateY(0)";
   smMenuLink2.style.opacity = "1";
 
-  smMenuLink3.style.transitionDelay = "1.1s";
+  smMenuLink3.style.transitionDelay = ".7s";
   smMenuLink3.style.transform = "translateY(0)";
   smMenuLink3.style.opacity = "1";
 
-  smMenuLink4.style.transitionDelay = "1.4s";
+  smMenuLink4.style.transitionDelay = ".9s";
   smMenuLink4.style.transform = "translateY(0)";
   smMenuLink4.style.opacity = "1";
 });
@@ -39,15 +39,15 @@ smMenuLinks.forEach((ele) => {
     smMenuLink3.style.transform = "translateY(50px)";
     smMenuLink3.style.opacity = "0";
 
-    smMenuLink2.style.transitionDelay = ".6s";
+    smMenuLink2.style.transitionDelay = ".5s";
     smMenuLink2.style.transform = "translateY(50px)";
     smMenuLink2.style.opacity = "0";
 
-    smMenuLink1.style.transitionDelay = ".9s";
+    smMenuLink1.style.transitionDelay = ".7s";
     smMenuLink1.style.transform = "translateY(50px)";
     smMenuLink1.style.opacity = "0";
 
-    smMenu.style.transitionDelay = "1.2s";
+    smMenu.style.transitionDelay = ".9s";
     smMenu.classList.remove("main-header__sm-menu--active");
 
     setTimeout(() => {
@@ -65,15 +65,15 @@ smMenuCloseBtn.addEventListener("click", () => {
   smMenuLink3.style.transform = "translateY(50px)";
   smMenuLink3.style.opacity = "0";
 
-  smMenuLink2.style.transitionDelay = ".6s";
+  smMenuLink2.style.transitionDelay = ".5s";
   smMenuLink2.style.transform = "translateY(50px)";
   smMenuLink2.style.opacity = "0";
 
-  smMenuLink1.style.transitionDelay = ".9s";
+  smMenuLink1.style.transitionDelay = ".7s";
   smMenuLink1.style.transform = "translateY(50px)";
   smMenuLink1.style.opacity = "0";
 
-  smMenu.style.transitionDelay = "1.2s";
+  smMenu.style.transitionDelay = ".9s";
   smMenu.classList.remove("main-header__sm-menu--active");
 });
 const themeColorSelector = document.querySelector(".themeClrSelector");
